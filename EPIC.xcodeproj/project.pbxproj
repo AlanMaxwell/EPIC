@@ -18,7 +18,9 @@
 		1BA2B25D2976DBB600AA9BF0 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B25C2976DBB600AA9BF0 /* NetworkLayer.swift */; };
 		1BA2B25F2976DE7300AA9BF0 /* JsonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B25E2976DE7300AA9BF0 /* JsonModels.swift */; };
 		1BA2B2612976ED4A00AA9BF0 /* DatesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2602976ED4A00AA9BF0 /* DatesListViewModel.swift */; };
-		1BA2B2652976F07800AA9BF0 /* DatesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2642976F07800AA9BF0 /* DatesListView.swift */; };
+		1BA2B2652976F07800AA9BF0 /* DatesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2642976F07800AA9BF0 /* DatesList.swift */; };
+		1BA2B2672976FDF400AA9BF0 /* DateListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2662976FDF400AA9BF0 /* DateListRow.swift */; };
+		1BA2B2692977112E00AA9BF0 /* NetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2682977112E00AA9BF0 /* NetworkLayerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,9 @@
 		1BA2B25C2976DBB600AA9BF0 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		1BA2B25E2976DE7300AA9BF0 /* JsonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModels.swift; sourceTree = "<group>"; };
 		1BA2B2602976ED4A00AA9BF0 /* DatesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesListViewModel.swift; sourceTree = "<group>"; };
-		1BA2B2642976F07800AA9BF0 /* DatesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesListView.swift; sourceTree = "<group>"; };
+		1BA2B2642976F07800AA9BF0 /* DatesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesList.swift; sourceTree = "<group>"; };
+		1BA2B2662976FDF400AA9BF0 /* DateListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListRow.swift; sourceTree = "<group>"; };
+		1BA2B2682977112E00AA9BF0 /* NetworkLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				1B917D632976CB6C00E57285 /* EPICTests.swift */,
+				1BA2B2682977112E00AA9BF0 /* NetworkLayerTests.swift */,
 			);
 			path = EPICTests;
 			sourceTree = "<group>";
@@ -163,7 +168,8 @@
 		1BA2B25A2976D9DC00AA9BF0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1BA2B2642976F07800AA9BF0 /* DatesListView.swift */,
+				1BA2B2642976F07800AA9BF0 /* DatesList.swift */,
+				1BA2B2662976FDF400AA9BF0 /* DateListRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -307,9 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA2B2672976FDF400AA9BF0 /* DateListRow.swift in Sources */,
 				1BA2B25D2976DBB600AA9BF0 /* NetworkLayer.swift in Sources */,
 				1BA2B25F2976DE7300AA9BF0 /* JsonModels.swift in Sources */,
-				1BA2B2652976F07800AA9BF0 /* DatesListView.swift in Sources */,
+				1BA2B2652976F07800AA9BF0 /* DatesList.swift in Sources */,
 				1BA2B2612976ED4A00AA9BF0 /* DatesListViewModel.swift in Sources */,
 				1B917D552976CB6800E57285 /* ContentView.swift in Sources */,
 				1B917D532976CB6800E57285 /* EPICApp.swift in Sources */,
@@ -320,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA2B2692977112E00AA9BF0 /* NetworkLayerTests.swift in Sources */,
 				1B917D642976CB6C00E57285 /* EPICTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

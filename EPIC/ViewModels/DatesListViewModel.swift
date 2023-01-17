@@ -11,7 +11,7 @@ import Combine
 class DatesListViewModel: ObservableObject {
     
     @Published var datesList = [String]()
-    var errorMessage: String = ""
+    @Published var errorMessage: String = ""
     private var cancellable: AnyCancellable?
     private let exampleService = NetworkLayer()
     
@@ -45,11 +45,8 @@ class DatesListViewModel: ObservableObject {
             errorMessage = "Network error"
         case ServiceError.statusCodeError(let code):
             errorMessage = "Error with status code: \(code ?? 0)"
-        case ServiceError.unknownError:
-            errorMessage = "Unknown error"
         default:
             errorMessage = "Unexpected error"
         }
     }
-    
 }
