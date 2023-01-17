@@ -2,18 +2,17 @@
 //  ContentView.swift
 //  EPIC
 //
-//  Created by Алан Максвелл on 17.01.2023.
+//  Created by Alexey Budynkov on 17.01.2023.
 //
 
+import Combine
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            DatesListView()
         }
         .padding()
     }

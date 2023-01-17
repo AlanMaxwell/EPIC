@@ -15,6 +15,10 @@
 		1B917D6E2976CB6C00E57285 /* EPICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B917D6D2976CB6C00E57285 /* EPICUITests.swift */; };
 		1B917D702976CB6C00E57285 /* EPICUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B917D6F2976CB6C00E57285 /* EPICUITestsLaunchTests.swift */; };
 		1BA2B2562976D62700AA9BF0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA2B2552976D62700AA9BF0 /* Launch Screen.storyboard */; };
+		1BA2B25D2976DBB600AA9BF0 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B25C2976DBB600AA9BF0 /* NetworkLayer.swift */; };
+		1BA2B25F2976DE7300AA9BF0 /* JsonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B25E2976DE7300AA9BF0 /* JsonModels.swift */; };
+		1BA2B2612976ED4A00AA9BF0 /* DatesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2602976ED4A00AA9BF0 /* DatesListViewModel.swift */; };
+		1BA2B2652976F07800AA9BF0 /* DatesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2642976F07800AA9BF0 /* DatesListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		1B917D6F2976CB6C00E57285 /* EPICUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPICUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1BA2B2552976D62700AA9BF0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		1BA2B2572976D79800AA9BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1BA2B25C2976DBB600AA9BF0 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		1BA2B25E2976DE7300AA9BF0 /* JsonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModels.swift; sourceTree = "<group>"; };
+		1BA2B2602976ED4A00AA9BF0 /* DatesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesListViewModel.swift; sourceTree = "<group>"; };
+		1BA2B2642976F07800AA9BF0 /* DatesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 		1B917D512976CB6800E57285 /* EPIC */ = {
 			isa = PBXGroup;
 			children = (
+				1BA2B25B2976DA8C00AA9BF0 /* Services */,
+				1BA2B25A2976D9DC00AA9BF0 /* Views */,
+				1BA2B2592976D9D600AA9BF0 /* ViewModels */,
+				1BA2B2582976D9C600AA9BF0 /* Models */,
 				1BA2B2572976D79800AA9BF0 /* Info.plist */,
 				1B917D522976CB6800E57285 /* EPICApp.swift */,
 				1B917D542976CB6800E57285 /* ContentView.swift */,
@@ -130,6 +142,38 @@
 				1B917D6F2976CB6C00E57285 /* EPICUITestsLaunchTests.swift */,
 			);
 			path = EPICUITests;
+			sourceTree = "<group>";
+		};
+		1BA2B2582976D9C600AA9BF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BA2B25E2976DE7300AA9BF0 /* JsonModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BA2B2592976D9D600AA9BF0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1BA2B2602976ED4A00AA9BF0 /* DatesListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1BA2B25A2976D9DC00AA9BF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BA2B2642976F07800AA9BF0 /* DatesListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1BA2B25B2976DA8C00AA9BF0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1BA2B25C2976DBB600AA9BF0 /* NetworkLayer.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA2B25D2976DBB600AA9BF0 /* NetworkLayer.swift in Sources */,
+				1BA2B25F2976DE7300AA9BF0 /* JsonModels.swift in Sources */,
+				1BA2B2652976F07800AA9BF0 /* DatesListView.swift in Sources */,
+				1BA2B2612976ED4A00AA9BF0 /* DatesListViewModel.swift in Sources */,
 				1B917D552976CB6800E57285 /* ContentView.swift in Sources */,
 				1B917D532976CB6800E57285 /* EPICApp.swift in Sources */,
 			);

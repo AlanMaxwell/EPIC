@@ -2,7 +2,7 @@
 //  EPICUITests.swift
 //  EPICUITests
 //
-//  Created by Алан Максвелл on 17.01.2023.
+//  Created by Alexey Budynkov on 17.01.2023.
 //
 
 import XCTest
