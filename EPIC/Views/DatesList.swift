@@ -13,11 +13,21 @@ struct DatesList: View {
     var body: some View {
         VStack {
             if viewModel.errorMessage.isEmpty {
-                List {
-                    ForEach(viewModel.datesList, id: \.self) { date in
-                        Text("\(date)")
+                NavigationView {
+                    
+                    VStack(alignment: .leading, spacing: 10) {
+
+                        ScrollView(showsIndicators: false) {
+                            LazyVStack {
+                                ForEach(viewModel.datesList, id: \.self) { date in
+                                    DateListRow(indicatorState: .nothingDownloaded, date: date)
+                                    Divider()
+                                }
+                            }
+                        }
                     }
                 }
+                
             } else {
                 Text(viewModel.errorMessage)
                     .foregroundColor(.red)
