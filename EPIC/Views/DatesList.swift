@@ -19,8 +19,8 @@ struct DatesList: View {
 
                         ScrollView(showsIndicators: false) {
                             LazyVStack {
-                                ForEach(viewModel.datesList, id: \.self) { date in
-                                    DateListRow(indicatorState: .nothingDownloaded, date: date)
+                                ForEach(viewModel.datesListRows, id: \.self) { row in
+                                    DateListRow(indicatorState: row.status, date: row.date)
                                     Divider()
                                 }
                             }

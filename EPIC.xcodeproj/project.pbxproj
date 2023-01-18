@@ -22,6 +22,7 @@
 		1BA2B2672976FDF400AA9BF0 /* DateListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2662976FDF400AA9BF0 /* DateListRow.swift */; };
 		1BA2B2692977112E00AA9BF0 /* NetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2682977112E00AA9BF0 /* NetworkLayerTests.swift */; };
 		1BA2B26B29774DDB00AA9BF0 /* ContentIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B26A29774DDB00AA9BF0 /* ContentIndicator.swift */; };
+		1BA2B27129776DD900AA9BF0 /* ImageGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B27029776DD900AA9BF0 /* ImageGridItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		1BA2B2662976FDF400AA9BF0 /* DateListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListRow.swift; sourceTree = "<group>"; };
 		1BA2B2682977112E00AA9BF0 /* NetworkLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTests.swift; sourceTree = "<group>"; };
 		1BA2B26A29774DDB00AA9BF0 /* ContentIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentIndicator.swift; sourceTree = "<group>"; };
+		1BA2B27029776DD900AA9BF0 /* ImageGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				1BA2B2642976F07800AA9BF0 /* DatesList.swift */,
 				1BA2B2662976FDF400AA9BF0 /* DateListRow.swift */,
 				1BA2B26A29774DDB00AA9BF0 /* ContentIndicator.swift */,
+				1BA2B27029776DD900AA9BF0 /* ImageGridItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA2B27129776DD900AA9BF0 /* ImageGridItem.swift in Sources */,
 				1BA2B2672976FDF400AA9BF0 /* DateListRow.swift in Sources */,
 				1BA2B26B29774DDB00AA9BF0 /* ContentIndicator.swift in Sources */,
 				1BA2B25D2976DBB600AA9BF0 /* NetworkLayer.swift in Sources */,
