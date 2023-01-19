@@ -26,6 +26,7 @@
 		1BA2B2732978BF1500AA9BF0 /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2722978BF1500AA9BF0 /* PhotoList.swift */; };
 		1BA2B2752978C1E800AA9BF0 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2742978C1E800AA9BF0 /* NavigationLazyView.swift */; };
 		1BB11A552978F53E0034B981 /* ImagesDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB11A542978F53E0034B981 /* ImagesDataStorage.swift */; };
+		1BB6AF85297944690029E0DD /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB6AF84297944690029E0DD /* PhotoListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		1BA2B2722978BF1500AA9BF0 /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
 		1BA2B2742978C1E800AA9BF0 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
 		1BB11A542978F53E0034B981 /* ImagesDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesDataStorage.swift; sourceTree = "<group>"; };
+		1BB6AF84297944690029E0DD /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				1BA2B2602976ED4A00AA9BF0 /* DatesListViewModel.swift */,
+				1BB6AF84297944690029E0DD /* PhotoListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				1BB11A552978F53E0034B981 /* ImagesDataStorage.swift in Sources */,
 				1BA2B2732978BF1500AA9BF0 /* PhotoList.swift in Sources */,
 				1BA2B2612976ED4A00AA9BF0 /* DatesListViewModel.swift in Sources */,
+				1BB6AF85297944690029E0DD /* PhotoListViewModel.swift in Sources */,
 				1B917D552976CB6800E57285 /* ContentView.swift in Sources */,
 				1B917D532976CB6800E57285 /* EPICApp.swift in Sources */,
 			);
