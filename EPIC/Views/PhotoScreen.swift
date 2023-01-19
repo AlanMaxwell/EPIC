@@ -11,11 +11,25 @@ struct PhotoScreen: View {
     
     var detailedImage:DayImage
     
+    @State private var scale: CGFloat = 1.0
+    
     var body: some View {
-        VStack{
+        
+        VStack {
             Image(uiImage: detailedImage.image)
                 .resizable()
-            
+                .scaledToFit()
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                .scaleEffect(scale)
+                .gesture(MagnificationGesture()
+                    .onChanged({ value in
+                        scale = value
+                        print(value)
+                    })
+                        .onEnded{val in
+                            scale = 1.0
+                        }
+                )
             Text("\(detailedImage.info.date)")
             Text("\(detailedImage.info.caption)")
             Text("\(detailedImage.info.image)")
@@ -25,9 +39,10 @@ struct PhotoScreen: View {
                 Text("\($0)")
             }
             
-            
         }
+        
     }
+
 }
 
 //struct PhotoScreen_Previews: PreviewProvider {
