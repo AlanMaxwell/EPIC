@@ -123,7 +123,6 @@
 		1B917D512976CB6800E57285 /* EPIC */ = {
 			isa = PBXGroup;
 			children = (
-				1BB11A532978F52A0034B981 /* Storage */,
 				1BA2B25B2976DA8C00AA9BF0 /* Services */,
 				1BA2B25A2976D9DC00AA9BF0 /* Views */,
 				1BA2B2592976D9D600AA9BF0 /* ViewModels */,
@@ -199,16 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				1BA2B25C2976DBB600AA9BF0 /* NetworkLayer.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		1BB11A532978F52A0034B981 /* Storage */ = {
-			isa = PBXGroup;
-			children = (
 				1BB11A542978F53E0034B981 /* ImagesDataStorage.swift */,
 			);
-			path = Storage;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
