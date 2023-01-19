@@ -21,6 +21,7 @@ import SwiftUI
     
     @Published var imagesDict = [String:DayImage]()
     @Published var errorMessage: String = ""
+    @Published var selectedPhoto:DayImage?
     
     let storage = ImagesDataStorage.getInstance()
     var updateAction: (()->Void)?

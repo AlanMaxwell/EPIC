@@ -35,6 +35,10 @@ struct Coords: Decodable, Hashable {
     let lunar_j2000_position:J2000Position
     let sun_j2000_position:J2000Position
     let attitude_quaternions:AttitudeQuaternions
+    
+    func structText()->[String] {
+        return ["\(centroid_coordinates)","\(dscovr_j2000_position)","\(lunar_j2000_position)","\(sun_j2000_position)","\(attitude_quaternions)"]
+    }
 }
 
 struct DayImageInfo: Decodable, Hashable {
