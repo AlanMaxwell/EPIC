@@ -10,12 +10,7 @@ import Combine
 
 
 @MainActor class PhotoListViewModel: ObservableObject {
-    
-    struct DayImageStructure:Equatable {
-        var day: String
-        var imageName: String
-    }
-    
+
     @Published var day:String
     @Published var downloadedStatusState:DownloadedStatus
     @Binding private var downloadedStatus:DownloadedStatus {
@@ -27,85 +22,41 @@ import Combine
     @Published var imagesDict = [String:DayImage]()
     @Published var errorMessage: String = ""
     
-    private let networkService = NetworkLayer()
-    private var imagesListSubject = PassthroughSubject<String, Error>()
-    private var imagesSubject = PassthroughSubject<DayImageStructure, Error>()
-    private var cancellables = Set<AnyCancellable>()
-    
-    private var loadingCounter = 0
+    let storage = ImagesDataStorage.getInstance()
+    var updateAction: (()->Void)?
+    var completeAction: (()->Void)?
     
     init(day:String, downloadedStatus:Binding<DownloadedStatus>){
         self.day = day
+
+        
         self.downloadedStatusState = downloadedStatus.wrappedValue
         self._downloadedStatus = downloadedStatus
         
+        //this action will update our view with asyncronous data
+        self.updateAction = {[weak self]
+            () -> Void in
+            self?.imagesDict = self?.storage.imagesInfo[day] ?? [String:DayImage]()
+        }
+        self.storage.updateClosures[day] = self.updateAction
+        
+        //this action is required to update the downloading status
+        self.completeAction = {[weak self]
+            () -> Void in
+            self?.downloadedStatus = .allDownloaded
+        }
+        self.storage.completionClosures[day] = self.completeAction
+        
         //check if we have this in cache
-        let storage = ImagesDataStorage.getInstance()
         if storage.imagesInfo.keys.contains(day){
             self.imagesDict = storage.imagesInfo[day]!
         }
-        
-        imagesListSubject
-            .removeDuplicates()
-            .flatMap { [unowned self] day in
-                self.networkService.fetchDayImagesList(day: day)
-            }
-            .receive(on: DispatchQueue.main)
-            .sink(receiveCompletion: { [weak self] completion in
-                switch completion {
-                case .finished:
-                    break
-                case .failure(let error):
-                    self?.handleError(error)
-                }
-            }, receiveValue: { [weak self] value in
-                
-                if !storage.imagesInfo.keys.contains(day) {
-                    storage.imagesInfo[day] = [String:DayImage]()
-                }
-                
-                _ = value.map { dayImageInfo in
-                    storage.imagesInfo[day]![dayImageInfo.image] = (info: dayImageInfo, image: UIImage(named: "placeholder")!)
-                    self?.imagesSubject.send(DayImageStructure(day: day, imageName: dayImageInfo.image))
-                }
-                
-                self?.imagesDict = storage.imagesInfo[day]!
-                
-                self?.errorMessage = ""
-            })
-            .store(in: &cancellables)
-        
-        imagesSubject
-            .removeDuplicates()
-            .flatMap { [unowned self] value in
-                self.networkService.fetchImage(day: value.day.split(separator: "-").joined(separator: "/"), imageName: value.imageName)
-            }
-            .receive(on: DispatchQueue.main)
-            .sink(receiveCompletion: { [weak self] completion in
-                switch completion {
-                case .finished:
-                    break
-                case .failure(let error):
-                    self?.handleError(error)
-                }
-            }, receiveValue: { [weak self] value in
-                storage.imagesInfo[day]![value.imageName]!.image = value.image
-                self?.imagesDict = storage.imagesInfo[day]!
-                self?.errorMessage = ""
-                
-                self?.loadingCounter+=1
-                if self?.loadingCounter == storage.imagesInfo[day]!.count {
-                    self?.downloadedStatus = .allDownloaded
-                }
-            })
-            .store(in: &cancellables)
         
     }
     
     func fetchImages(){
         downloadedStatus = .downloading
-        self.imagesListSubject.send(self.day)
-        
+        storage.fetchImages(day: self.day, updateAction: self.updateAction!)
     }
     
     private func handleError(_ error: Error) {
