@@ -10,7 +10,8 @@ import Combine
 
 struct PhotoList: View {
     @StateObject var viewModel: PhotoListViewModel
-    @State var showSheet:Bool = false
+    @State var showPhotoSheet:Bool = false
+    @State var showPlayerSheet:Bool = false
     
     var body: some View {
         
@@ -32,7 +33,7 @@ struct PhotoList: View {
                                 .frame(width: 50, height: 50)
                                 .onTapGesture {
                                     viewModel.selectedPhoto = imagesList[index]
-                                    showSheet.toggle()
+                                    showPhotoSheet.toggle()
                                 }
                         }
                         
@@ -44,24 +45,34 @@ struct PhotoList: View {
             .navigationBarItems(
                 trailing:
                     HStack{
-                        Spacer()
-                        Button {
-                            viewModel.fetchImages()
-                        } label: {
-                            if viewModel.downloadedStatusState == .allDownloaded {
+                        if viewModel.downloadedStatusState == .allDownloaded {
+                            Button {
+                                showPlayerSheet.toggle()
+                            } label: {
                                 Image(systemName: "play")
                                     .resizable()
                             }
-                            else{
+                            
+                        }
+                        else{
+                            Button {
+                                viewModel.fetchImages()
+                            } label: {
                                 Image(systemName: "icloud.and.arrow.down")
                                     .resizable()
                             }
                         }
+                        Spacer()
                     }
             )
-            .sheet(isPresented: self.$showSheet) {
+            
+            .sheet(isPresented: self.$showPhotoSheet) {
                 PhotoScreen(detailedImage: viewModel.selectedPhoto!)
             }
+            .sheet(isPresented: self.$showPlayerSheet) {
+                PlayerScreen(images: Array(viewModel.imagesDict.values.map{ $0.image }))
+            }
+
         }
     }
 }
