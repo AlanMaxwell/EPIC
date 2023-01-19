@@ -23,6 +23,9 @@
 		1BA2B2692977112E00AA9BF0 /* NetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2682977112E00AA9BF0 /* NetworkLayerTests.swift */; };
 		1BA2B26B29774DDB00AA9BF0 /* ContentIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B26A29774DDB00AA9BF0 /* ContentIndicator.swift */; };
 		1BA2B27129776DD900AA9BF0 /* ImageGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B27029776DD900AA9BF0 /* ImageGridItem.swift */; };
+		1BA2B2732978BF1500AA9BF0 /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2722978BF1500AA9BF0 /* PhotoList.swift */; };
+		1BA2B2752978C1E800AA9BF0 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2B2742978C1E800AA9BF0 /* NavigationLazyView.swift */; };
+		1BB11A552978F53E0034B981 /* ImagesDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB11A542978F53E0034B981 /* ImagesDataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		1BA2B2682977112E00AA9BF0 /* NetworkLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTests.swift; sourceTree = "<group>"; };
 		1BA2B26A29774DDB00AA9BF0 /* ContentIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentIndicator.swift; sourceTree = "<group>"; };
 		1BA2B27029776DD900AA9BF0 /* ImageGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridItem.swift; sourceTree = "<group>"; };
+		1BA2B2722978BF1500AA9BF0 /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
+		1BA2B2742978C1E800AA9BF0 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		1BB11A542978F53E0034B981 /* ImagesDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesDataStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,7 @@
 		1B917D512976CB6800E57285 /* EPIC */ = {
 			isa = PBXGroup;
 			children = (
+				1BB11A532978F52A0034B981 /* Storage */,
 				1BA2B25B2976DA8C00AA9BF0 /* Services */,
 				1BA2B25A2976D9DC00AA9BF0 /* Views */,
 				1BA2B2592976D9D600AA9BF0 /* ViewModels */,
@@ -176,6 +183,8 @@
 				1BA2B2662976FDF400AA9BF0 /* DateListRow.swift */,
 				1BA2B26A29774DDB00AA9BF0 /* ContentIndicator.swift */,
 				1BA2B27029776DD900AA9BF0 /* ImageGridItem.swift */,
+				1BA2B2722978BF1500AA9BF0 /* PhotoList.swift */,
+				1BA2B2742978C1E800AA9BF0 /* NavigationLazyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +195,14 @@
 				1BA2B25C2976DBB600AA9BF0 /* NetworkLayer.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		1BB11A532978F52A0034B981 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				1BB11A542978F53E0034B981 /* ImagesDataStorage.swift */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +341,10 @@
 				1BA2B26B29774DDB00AA9BF0 /* ContentIndicator.swift in Sources */,
 				1BA2B25D2976DBB600AA9BF0 /* NetworkLayer.swift in Sources */,
 				1BA2B25F2976DE7300AA9BF0 /* JsonModels.swift in Sources */,
+				1BA2B2752978C1E800AA9BF0 /* NavigationLazyView.swift in Sources */,
 				1BA2B2652976F07800AA9BF0 /* DatesList.swift in Sources */,
+				1BB11A552978F53E0034B981 /* ImagesDataStorage.swift in Sources */,
+				1BA2B2732978BF1500AA9BF0 /* PhotoList.swift in Sources */,
 				1BA2B2612976ED4A00AA9BF0 /* DatesListViewModel.swift in Sources */,
 				1B917D552976CB6800E57285 /* ContentView.swift in Sources */,
 				1B917D532976CB6800E57285 /* EPICApp.swift in Sources */,

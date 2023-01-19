@@ -17,7 +17,7 @@ struct DateListRow: View {
             Spacer()
             Text(date)
         }
-        
+        .contentShape(Rectangle())
     }
 }
 

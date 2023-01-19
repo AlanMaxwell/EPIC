@@ -49,21 +49,18 @@ class NetworkLayer {
     }
     
     //fetches the images list and adds a day to the result
-    func fetchDayImagesList(day:String) -> AnyPublisher<[String:[DayImage]], Error> {
+    func fetchDayImagesList(day:String) -> AnyPublisher<[DayImageInfo], Error> {
         guard let url = URL(string: "https://epic.gsfc.nasa.gov/api/enhanced/date/\(day)") else {
             return Fail(error: ServiceError.invalidURL).eraseToAnyPublisher()
         }
         
-        var publisher: AnyPublisher<[DayImage], Error> = fetchJSON(from: url)
-
-        return publisher
-            .map { values in
-                return [day:values]
-            }
-            .eraseToAnyPublisher()
+        return fetchJSON(from: url)
     }
     
-    func fetchImage(from url: URL) -> AnyPublisher<UIImage, Error> {
+    func fetchImage(day:String, imageName:String) -> AnyPublisher<(imageName: String, image: UIImage), Error> {
+        guard let url = URL(string: "https://epic.gsfc.nasa.gov/archive/enhanced/\(day)/png/\(imageName).png") else {
+            return Fail(error: ServiceError.invalidURL).eraseToAnyPublisher()
+        }
         
         return URLSession.shared.dataTaskPublisher(for: url)
             .mapError { error -> ServiceError in
@@ -82,8 +79,9 @@ class NetworkLayer {
                 }
                 return data
             }
-            .map { data in UIImage(data: data) }
-            .replaceNil(with: UIImage())
+            .map { data in
+                (imageName: imageName, image: UIImage(data: data) ?? UIImage())
+            }
             .eraseToAnyPublisher()
     }
 

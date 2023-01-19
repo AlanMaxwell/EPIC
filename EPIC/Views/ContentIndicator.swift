@@ -14,8 +14,8 @@ struct ContentIndicator: View {
         HStack {
             switch indicatorState {
             case .nothingDownloaded:
-                Circle()
-                    .fill(.red)
+                Image(uiImage: UIImage(named: "circle")!)
+                    .resizable()
             case .downloading:
                 GeometryReader { proxy in
                     ProgressView()

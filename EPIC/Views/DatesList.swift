@@ -19,13 +19,20 @@ struct DatesList: View {
 
                         ScrollView(showsIndicators: false) {
                             LazyVStack {
-                                ForEach(viewModel.datesListRows, id: \.self) { row in
-                                    DateListRow(indicatorState: row.status, date: row.date)
+                                ForEach(viewModel.datesList.indices, id: \.self) { index in
+                                    NavigationLink(destination: NavigationLazyView(
+                                        PhotoList(viewModel: PhotoListViewModel(day: viewModel.datesList[index], downloadedStatus: $viewModel.downloadStatusesList[index]))
+                                    )) {
+                                        
+                                        DateListRow(indicatorState: viewModel.downloadStatusesList[index], date: viewModel.datesList[index])
+                                    }
+                                    .buttonStyle(PlainButtonStyle())
                                     Divider()
                                 }
                             }
                         }
                     }
+                    .navigationBarTitle(Text(""), displayMode: .inline)
                 }
                 
             } else {

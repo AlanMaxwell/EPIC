@@ -37,7 +37,7 @@ struct Coords: Decodable, Hashable {
     let attitude_quaternions:AttitudeQuaternions
 }
 
-struct DayImage: Decodable, Hashable {
+struct DayImageInfo: Decodable, Hashable {
     let identifier:String
     let caption:String
     let image:String
