@@ -24,7 +24,6 @@ struct PhotoScreen: View {
                 .gesture(MagnificationGesture()
                     .onChanged({ value in
                         scale = value
-                        print(value)
                     })
                         .onEnded{val in
                             scale = 1.0
