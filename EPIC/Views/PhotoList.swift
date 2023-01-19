@@ -26,7 +26,7 @@ struct PhotoList: View {
 
                     LazyVGrid(columns: Array(repeating: GridItem(), count: 4)) {
                         ForEach(imagesList.indices, id: \.self) { index in
-                            Image(uiImage: imagesList[index].value.image)
+                            Image(uiImage: imagesList[index].value.image.preparingThumbnail(of: CGSize(width: 50, height: 50)) ?? imagesList[index].value.image)
                                 .resizable()
                                 .frame(width: 50, height: 50)
 //                            Text("\(imagesList[index].key)")
