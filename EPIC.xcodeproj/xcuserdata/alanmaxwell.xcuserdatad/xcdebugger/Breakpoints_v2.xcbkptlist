@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "63B9A8A7-8E1B-4DE0-83B2-1522C8E5A113"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D1766FC-8E5F-41FE-BAE8-04A1DEEB8447"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPIC/Services/NetworkLayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "fetchDayImagesList(day:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D1766FC-8E5F-41FE-BAE8-04A1DEEB8447 - 4c6fe072b1d8f180"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPIC.NetworkLayer.fetchDayImagesList(day: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Dictionary&lt;Swift.String, Swift.Array&lt;EPIC.DayImage&gt;&gt;, Swift.Error&gt;"
+                  moduleName = "EPIC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPIC/Services/NetworkLayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "7D1766FC-8E5F-41FE-BAE8-04A1DEEB8447 - 4c6fe072b1d8f180"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPIC.NetworkLayer.fetchDayImagesList(day: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Dictionary&lt;Swift.String, Swift.Array&lt;EPIC.DayImage&gt;&gt;, Swift.Error&gt;"
+                  moduleName = "EPIC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPIC/Services/NetworkLayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "616">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FC95AE4-BF74-4A59-B7EE-123875FB2CEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPIC/Views/DatesList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "DatesList"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FDE71B1-126B-49B8-A621-0B3D8A8C5029"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPIC/Views/DatesList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B54A5755-2623-4737-BE9E-A3915C9CB8CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPIC/Views/PhotoList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B54A5755-2623-4737-BE9E-A3915C9CB8CE - 80ffa44b32536a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPIC.PhotoList.body.getter : some"
+                  moduleName = "EPIC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPIC/Views/PhotoList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "B54A5755-2623-4737-BE9E-A3915C9CB8CE - 8f7644e5a181e7f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((key: Swift.String, value: (info: EPIC.DayImageInfo, image: __C.UIImage))) -&gt; (key: Swift.String, value: (info: EPIC.DayImageInfo, image: __C.UIImage)) in EPIC.PhotoList.body.getter : some"
+                  moduleName = "EPIC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPIC/Views/PhotoList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "388">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "382E6C83-2C9F-4082-9E65-15CE2C6E4A1E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPIC/Services/NetworkLayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "fetchImage(day:imageName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5205FAE8-3602-462B-AA0E-6F9D43F2BB8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPIC/Storage/ImagesDataStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3A2086B-2E61-4333-8C78-F9F0D8EB7D65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPIC/Storage/ImagesDataStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A3A2086B-2E61-4333-8C78-F9F0D8EB7D65 - e36de1de9f4128fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 ((day: Swift.String, imagesInfo: Swift.Array&lt;EPIC.DayImageInfo&gt;)) -&gt; () in EPIC.ImagesDataStorage.init() -&gt; EPIC.ImagesDataStorage"
+                  moduleName = "EPIC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPIC/Storage/ImagesDataStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "A3A2086B-2E61-4333-8C78-F9F0D8EB7D65 - 55c1754a16877b8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (EPIC.DayImageInfo) -&gt; () in closure #3 ((day: Swift.String, imagesInfo: Swift.Array&lt;EPIC.DayImageInfo&gt;)) -&gt; () in EPIC.ImagesDataStorage.init() -&gt; EPIC.ImagesDataStorage"
+                  moduleName = "EPIC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPIC/Storage/ImagesDataStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25206119-630D-4C65-8740-24A5143EC3AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPIC/Storage/ImagesDataStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E135F71-F700-4EDB-97B4-CB64BFF74CD7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPIC/Views/PhotoList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1CB5D19-9D67-49A2-B363-547478C382D3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "testFetchJSON()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1CB5D19-9D67-49A2-B363-547478C382D3 - 5416ad645c069f0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "1868">
+               </Location>
+               <Location
+                  uuid = "C1CB5D19-9D67-49A2-B363-547478C382D3 - 371b76fd0fc6f551"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Array&lt;EPIC.JsonDate&gt;) -&gt; () in EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "C1CB5D19-9D67-49A2-B363-547478C382D3 - 371b76fd0fc6f933"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Array&lt;EPIC.JsonDate&gt;) -&gt; () in EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "C1CB5D19-9D67-49A2-B363-547478C382D3 - 371b76fd0fc6f971"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Array&lt;EPIC.JsonDate&gt;) -&gt; () in EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBDD66E9-4022-48BB-8000-64D4F72403EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "testFetchJSON()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EBDD66E9-4022-48BB-8000-64D4F72403EF - 5416ad645c06991e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1676">
+               </Location>
+               <Location
+                  uuid = "EBDD66E9-4022-48BB-8000-64D4F72403EF - a094302b783d5f5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;EPIC.JsonDate&gt;) -&gt; () in EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "EBDD66E9-4022-48BB-8000-64D4F72403EF - a094302b783d5b39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;EPIC.JsonDate&gt;) -&gt; () in EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "EBDD66E9-4022-48BB-8000-64D4F72403EF - a094302b783d5b7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;EPIC.JsonDate&gt;) -&gt; () in EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47FD7557-69A3-4DE0-AEF8-85A49EB1E24B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "NetworkLayerTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51ADDDFA-676C-4201-93D9-D3622E4E7D63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "testFetchJSON()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47FD9E0E-2C84-4F48-B8D0-88E31D51312C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "testGetProfile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "47FD9E0E-2C84-4F48-B8D0-88E31D51312C - fe79ca5b3c5d6da9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in EPICTests.NetworkLayerTests.testGetProfile() throws -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "47FD9E0E-2C84-4F48-B8D0-88E31D51312C - fe79ca5b3c5d6c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in EPICTests.NetworkLayerTests.testGetProfile() throws -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAC24C38-5E96-45AF-A9FE-2F2B5669A6F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "testGetProfile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FAC24C38-5E96-45AF-A9FE-2F2B5669A6F9 - e751692694208689"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testGetProfile() throws -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1032">
+               </Location>
+               <Location
+                  uuid = "FAC24C38-5E96-45AF-A9FE-2F2B5669A6F9 - e7516926942086cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testGetProfile() throws -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1032">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E3EF75D-3D96-4284-B321-3B8A2750401F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "testFetchJSON()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E3EF75D-3D96-4284-B321-3B8A2750401F - 5416ad645c069a92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1552">
+               </Location>
+               <Location
+                  uuid = "2E3EF75D-3D96-4284-B321-3B8A2750401F - 5416ad645c069af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSON() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3BA9193-38A7-46C1-B208-1F9779BC8C04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "testFetchJSONSuccessful()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "156313F3-4829-4AE4-9C20-45352C46E2C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "testFetchJSONSuccessful()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "156313F3-4829-4AE4-9C20-45352C46E2C0 - 4d6c4fe03a06e5b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSONSuccessful() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "156313F3-4829-4AE4-9C20-45352C46E2C0 - 4d6c4fe03a06e5cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSONSuccessful() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "684">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F3BA5D4-368E-4CB9-9913-80EA844935A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "testFetchJSONSuccessful()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5F3BA5D4-368E-4CB9-9913-80EA844935A0 - 4d6c4fe03a06e760"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSONSuccessful() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1392">
+               </Location>
+               <Location
+                  uuid = "5F3BA5D4-368E-4CB9-9913-80EA844935A0 - 4d6c4fe03a06e7a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSONSuccessful() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "1392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A2E00D0-5867-4497-9B5B-42F2BBB8C09C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "testFetchJSONSuccessful()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A2E00D0-5867-4497-9B5B-42F2BBB8C09C - 4d6c4fe03a06e785"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSONSuccessful() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "1440">
+               </Location>
+               <Location
+                  uuid = "4A2E00D0-5867-4497-9B5B-42F2BBB8C09C - 4d6c4fe03a06e7db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPICTests.NetworkLayerTests.testFetchJSONSuccessful() -&gt; ()"
+                  moduleName = "EPICTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanmaxwell/Documents/%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D1%8B/EPIC/EPICTests/NetworkLayerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "1440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BD82A8F-0738-4E97-A47E-F7994BF82DD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EPICTests/NetworkLayerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "NetworkLayerTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

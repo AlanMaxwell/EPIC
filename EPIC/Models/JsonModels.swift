@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct JsonDate: Decodable, Hashable {
+struct JsonDate: Encodable, Decodable, Hashable {
     let date:String
 }
 

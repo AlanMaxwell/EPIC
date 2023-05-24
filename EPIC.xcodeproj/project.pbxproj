@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5787A229B6A4EE004E2151 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5787A129B6A4EE004E2151 /* MockURLProtocol.swift */; };
 		1B917D532976CB6800E57285 /* EPICApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B917D522976CB6800E57285 /* EPICApp.swift */; };
 		1B917D552976CB6800E57285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B917D542976CB6800E57285 /* ContentView.swift */; };
 		1B917D572976CB6B00E57285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B917D562976CB6B00E57285 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5787A129B6A4EE004E2151 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 		1B917D4F2976CB6800E57285 /* EPIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B917D522976CB6800E57285 /* EPICApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPICApp.swift; sourceTree = "<group>"; };
 		1B917D542976CB6800E57285 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			children = (
 				1B917D632976CB6C00E57285 /* EPICTests.swift */,
 				1BA2B2682977112E00AA9BF0 /* NetworkLayerTests.swift */,
+				1B5787A129B6A4EE004E2151 /* MockURLProtocol.swift */,
 			);
 			path = EPICTests;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5787A229B6A4EE004E2151 /* MockURLProtocol.swift in Sources */,
 				1BA2B2692977112E00AA9BF0 /* NetworkLayerTests.swift in Sources */,
 				1B917D642976CB6C00E57285 /* EPICTests.swift in Sources */,
 			);

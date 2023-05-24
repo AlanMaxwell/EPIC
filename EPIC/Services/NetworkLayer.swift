@@ -17,10 +17,25 @@ enum ServiceError: Error, Equatable {
     case statusCodeError(code: Int?)
 }
 
+protocol NetworkLayerProtocol {
+    func fetchJSON<T: Decodable>(from url: URL) -> AnyPublisher<T, Error>
+    func fetchDates() -> AnyPublisher<[JsonDate], Error>
+    func fetchDayImagesList(day:String) -> AnyPublisher<(day:String, imagesInfo: [DayImageInfo]), Error>
+    func fetchImage(day:String, imageName:String) -> AnyPublisher<(day:String, imageName: String, image: UIImage), Error>
+}
 
-class NetworkLayer {
+class NetworkLayer: NetworkLayerProtocol {
+    
+    let session: URLSession
+    
+    // Make the session shared by default.
+    // In unit tests, a mock session can be injected.
+    init(urlSession: URLSession = .shared) {
+        self.session = urlSession
+    }
+    
     func fetchJSON<T: Decodable>(from url: URL) -> AnyPublisher<T, Error> {
-        return URLSession.shared.dataTaskPublisher(for: url)
+        return session.dataTaskPublisher(for: url)
             .mapError { error -> ServiceError in
                 switch error.code {
                 case .notConnectedToInternet:
@@ -67,7 +82,7 @@ class NetworkLayer {
             return Fail(error: ServiceError.invalidURL).eraseToAnyPublisher()
         }
         
-        return URLSession.shared.dataTaskPublisher(for: url)
+        return session.dataTaskPublisher(for: url)
             .mapError { error -> ServiceError in
                 switch error.code {
                 case .notConnectedToInternet:
